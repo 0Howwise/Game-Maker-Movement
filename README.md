@@ -6,14 +6,8 @@ Over time the code should be a basic movement for a generic video game character
 
 Features Coved:
 
-Sprinting 
-Double jumping
-Sliding
-Wall jumping
-Flying or jetpack like feature
-Shooting 
-Melee
+Sprinting, Double jumping, Sliding, Wall jumping, Flying or jetpack like feature, Shooting, and Melee
 
-
+All resources will be opensource 
 
 I Should have a tutorial on how to implement this code in your projects soon.
