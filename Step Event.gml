@@ -1,19 +1,16 @@
-//Step Event 
-//
-//Place this code in the step event.
-//
-//fully functional movement code for game maker studio 1.4
-//
-//following shaun Spalding tutorial.
-//
-//
-//
+/**Step Event 
+Place this code in the step event.
+fully functional 2d movement code for game maker studio 1.4
+
+following shaun Spalding tutorial.
+**/
 
 ///Get the player's input
 key_right = keyboard_check(ord('D'));
 key_left = -keyboard_check(ord('A'));
 key_jump = keyboard_check_pressed(vk_space);
 key_sprint = keyboard_check_pressed(ord('C'));
+
 //React to inputs
 move = key_left + key_right;
 hsp = move * movespeed;
@@ -32,6 +29,7 @@ if (place_meeting(x+hsp,y,obj_wall_0))
         x += sign(hsp);
     }
     hsp = 0;
+  
 }
 x += hsp;
 
