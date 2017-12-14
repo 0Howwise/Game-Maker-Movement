@@ -1,4 +1,4 @@
-//step event
+//put this script in the step event of your player object
 
 ///Get the player's input
 key_right = keyboard_check(ord('D'));
