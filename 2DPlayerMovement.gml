@@ -1,9 +1,4 @@
-/**Step Event 
-Place this code in the step event.
-fully functional 2d movement code for game maker studio 1.4
-
-following shaun Spalding tutorial.
-**/
+//step event
 
 ///Get the player's input
 key_right = keyboard_check(ord('D'));
