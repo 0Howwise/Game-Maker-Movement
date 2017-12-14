@@ -8,4 +8,13 @@ Features Coved:
 
 Sprinting, Double jumping, Sliding, Wall jumping, Flying or jetpack like feature, Shooting, and Melee.
 
+Player movement:
+
+
+Animation script:
+
+
+
+
+
 
