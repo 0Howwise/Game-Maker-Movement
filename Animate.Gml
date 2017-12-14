@@ -1,0 +1,17 @@
+// Controling all player sprite changes
+
+//chaning the sprite base off what direction your are going in  
+if (move!=0) image_xscale = move;
+// checking if colliding, this is done in order to run  
+if (place_meeting(x,y+1,obj_wall_0))
+{
+	//changing the sprite running animation or idle animation
+    if (move!=0) sprite_index = spr_test_player_runing; else sprite_index = spr_test_player;
+}
+else // other sprites besides running 
+{
+	// if in the air change sprite or if falling change the sprite to falling 
+    if (vsp < 0) sprite_index = spr_test_player_jumping; else sprite_index = spr_test_player_falling;
+}
+
+
