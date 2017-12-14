@@ -1,12 +1,8 @@
-/**Create Event
-This code is for the player values, they kinda work like stats.
-It should be placed in the create event for the player object in your game.
-Otherwise the movement code will not work.
-
-following shaun Spalding tutorial.
-
+//Add this code to the create event of your player object 
+/**these are basic player variables. I recommend you play around with them 
+to get the right feel for your game. DO NOT delete any of them if you plan 
+on using the rest of the scripts in the repository  
 **/
-
 ///Initialize Variables
 
 grav = 0.2;
